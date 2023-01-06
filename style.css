@@ -4,11 +4,11 @@ margin: 0%;
 
 /* Start Banner Section*/
 .banner_section{
-    background-image: url(./images/banner/banner3.png);
+    background-image: url(./images/banner/banner2.png);
     background-size: cover;
     width: auto;
     height: 100vh;
-    color: antiquewhite;
+    color: rgb(2, 15, 255);
     text-align: end;
     padding-right: 50px;
     padding-top: 200px;
@@ -20,10 +20,11 @@ margin: 0%;
     font-size: 33px;
 }
 .banner_section button{
-    width: 150px;
+    color: rgb(170, 0, 255);
+    width: 160px;
     height: 50px;
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
 }
 /* End Banner Section*/
 
@@ -61,7 +62,6 @@ margin: 0%;
 
 
 /* Start My Plan Section. */
-
 .plans-section{
     height: 400px;
     width: 70%;
@@ -97,3 +97,41 @@ margin: 0%;
     font-size: 25px;
 }
 /* End My Plan Section. */
+
+
+/* Start Daily Check List Section. */
+
+/* --------  DUE Bonus Part ---------*/
+
+/* End Daily Check List Section. */
+
+
+/* Start Positive Mindset Section. */
+.mindset-section{
+    color: white;
+    height: 300px;
+    width: 80%;
+    margin-left: 120px;
+    padding-left: 100px;
+    padding-top: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:
+    linear-gradient(to left, rgba(233, 210, 193, 0.05), rgba(30, 136, 222, 0.834)),
+    url('./images/watch.png');
+    border-radius: 5px;
+}
+
+.mindset-section h2{
+    font-size:50px;
+}
+
+.mindset-section button{
+    color: rgb(17, 106, 240);
+
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    font-size: 22px;
+}
+/* End Positive Mindset Section. */
