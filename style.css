@@ -30,26 +30,23 @@ margin: 0%;
 
 /* Start Previous Year Failure Section*/
 .failure-section{
-    /* background-color: aqua; */
     display: flex;
     width: 100%;
     height: 700px;
-    margin: 50px 0px 100px 0px;
+    margin-top: 50px;
 }
 
 .left-side-failure-section img{
-    /* background-color: brown; */
     width: 600px;
     height: 650px;
     margin: 20px 50px 0px 150px;
 }
 
 .right-side-failure-section{
-    /* background-color:darksalmon; */
     width: 900px;
     height: 550px;
-    margin: 20px 150px 0px 10px;
-    padding-top: 100px;
+     margin: 20px 150px 0px 10px;
+     padding-top: 100px;
     padding-left: 15px;
 }
 
@@ -61,3 +58,42 @@ margin: 0%;
     font-size: 20px;
 }
 /* End Previous Year Failure Section*/
+
+
+/* Start My Plan Section. */
+
+.plans-section{
+    height: 400px;
+    width: 70%;
+    margin: 0px 280px;
+    text-align: center;
+}
+.plans-section h2{
+    font-size: 40px;
+}
+.plan-list{
+    display: flex;
+    height: 280px;
+    padding-top: 20px;
+}
+
+.plan-task{
+    height: 250px;
+    width: 200px;
+    margin-left: 90px;
+}
+
+.plan-task img{
+    width: 110px;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.plan-task h4{
+    font-size: 25px;
+}
+
+.plan-task p{
+    font-size: 25px;
+}
+/* End My Plan Section. */
