@@ -158,11 +158,15 @@ margin: 0%;
 }
 
 .left-side-footer-text-section p{
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .left-side-footer-text-section h6{
     font-size: 22px;
+}
+
+.social-icon img{
+    margin-left: 15px;
 }
 
 .right-side-footer-subscribe-section{
