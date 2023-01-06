@@ -1,0 +1,13 @@
+.body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.banner_section{
+    background-color: aquamarine;
+    background-image: url(./images/banner/banner3.png);
+    width: auto;
+    height: 100vh;
+    text-align: right;
+    color: antiquewhite;
+}
