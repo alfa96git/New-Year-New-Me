@@ -135,3 +135,52 @@ margin: 0%;
     font-size: 22px;
 }
 /* End Positive Mindset Section. */
+
+
+/* Start Footer section. */
+.footer-section{
+    background-color: black;
+    display: flex;
+    color:white;
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+}
+
+.left-side-footer-text-section{
+    width: 50%;
+    margin-left: 5%;
+    padding-left: 40px;
+}
+
+.left-side-footer-text-section h3{
+    font-size: 30px;
+}
+
+.left-side-footer-text-section p{
+    font-size: 20px;
+}
+
+.left-side-footer-text-section h6{
+    font-size: 22px;
+}
+
+.right-side-footer-subscribe-section{
+width: 40%;
+margin-left: 10%;
+font-size: 30px;
+padding-left: 30px;
+}
+
+.email-tag{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.right-side-footer-subscribe-section button{
+    height: 30px;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+/* End Footer Section.  */
