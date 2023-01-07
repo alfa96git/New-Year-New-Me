@@ -10,7 +10,7 @@ margin: 0%;
     height: 100vh;
     color: rgb(2, 15, 255);
     text-align: end;
-    padding-right: 50px;
+    padding-right: 100px;
     padding-top: 200px;
 }
 .banner_section h1{
@@ -20,11 +20,14 @@ margin: 0%;
     font-size: 33px;
 }
 .banner_section button{
-    color: rgb(170, 0, 255);
+    color: rgb(254, 254, 254);
+    background-color: rgba(206, 23, 23, 0.573);
     width: 160px;
-    height: 50px;
+    height: 65px;
     text-align: center;
-    font-size: 22px;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 5px;
 }
 /* End Banner Section*/
 
@@ -127,8 +130,8 @@ margin: 0%;
 }
 
 .mindset-section button{
-    color: rgb(17, 106, 240);
-
+    color: rgb(37, 41, 47);
+    border-radius: 7px;
     width: 120px;
     height: 50px;
     text-align: center;
@@ -139,7 +142,7 @@ margin: 0%;
 
 /* Start Footer section. */
 .footer-section{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.92);
     display: flex;
     color:white;
     margin-top: 50px;
@@ -154,7 +157,7 @@ margin: 0%;
 }
 
 .left-side-footer-text-section h3{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .left-side-footer-text-section p{
@@ -167,24 +170,33 @@ margin: 0%;
 
 .social-icon img{
     margin-left: 15px;
+    padding-bottom: 20px;
 }
 
 .right-side-footer-subscribe-section{
 width: 40%;
 margin-left: 10%;
-font-size: 30px;
+font-size: 35px;
 padding-left: 30px;
 }
 
 .email-tag{
-    font-size: 20px;
+    font-size: 24px;
+    background-color: transparent;
+    border-radius: 4px;
     margin-bottom: 10px;
+    width: 300px;
+    height: 40px;
 }
 
 .right-side-footer-subscribe-section button{
-    height: 30px;
-    width: 120px;
-    font-size: 20px;
-    border-radius: 5px;
+    background-color: rgba(49, 148, 229, 0.573);
+    color: white;
+    height: 50px;
+    width: 180px;
+    font-size: 25px;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 5px;
 }
 /* End Footer Section.  */
