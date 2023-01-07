@@ -76,8 +76,7 @@ margin: 0%;
 }
 .plan-list{
     display: flex;
-    height: 280px;
-    padding-top: 20px;
+    justify-content:space-around;
 }
 
 .plan-task{
@@ -103,8 +102,48 @@ margin: 0%;
 
 
 /* Start Daily Check List Section. */
+.daily-check-list{
+    background-image: url(./images/daily-routine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 350px;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    border-radius: 10px;
+    color: rgba(28, 30, 25, 0.988);
+    font-weight: 900;
 
-/* --------  DUE Bonus Part ---------*/
+}
+
+.daily-check-list h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.daily-check-list-points{
+    display: flex;
+    justify-content:space-around;
+}
+
+.left-side-check-list{
+    font-size: 25px;
+}
+
+.negative-points{
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+
+.right-side-check-list{
+    font-size: 25px;
+}
+
+.positive-points{
+    font-size: 22px;
+    padding-bottom: 5px;
+}
 
 /* End Daily Check List Section. */
 
